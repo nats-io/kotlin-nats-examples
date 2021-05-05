@@ -1,2 +1,2 @@
 include ':app'
-rootProject.name = "Nats"
+rootProject.name = "simple-android-app"
