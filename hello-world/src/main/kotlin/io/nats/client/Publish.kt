@@ -5,7 +5,7 @@ import java.util.*
 
 fun main(args: Array<String>) {
     try {
-        Nats.connect("nats://demo.nats.io:4222").use { nc ->
+        Nats.connect("nats://demo.nats.io").use { nc ->
             print("About to publish...")
 
             val payload = "payload @ ${Date()}".toByteArray()
